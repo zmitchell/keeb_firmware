@@ -1,2 +1,6 @@
 POINTING_DEVICE_DRIVER = analog_joystick
+POINTING_DEVICE_ENABLE = no
 SRC += lib/oled.c
+CONSOLE_ENABLE = yes
+CAPS_WORD_ENABLE = yes
+AUDIO_ENABLE = no

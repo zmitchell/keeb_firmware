@@ -1,0 +1,157 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "qmk": {
+        "pkg-path": "qmk"
+      }
+    },
+    "hook": {},
+    "profile": {
+      "fish": "  alias flash \"qmk flash result-firmware\"\n"
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    },
+    "build": {
+      "firmware": {
+        "command": "  qmk compile -j 0 -kb boardsource/unicorne -km zmitchell > $out\n",
+        "files": null,
+        "systems": null,
+        "sandbox": null
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "qmk",
+      "broken": false,
+      "derivation": "/nix/store/gk2aasxd05yq9mcwg5jgi9dym7v8b2yw-qmk-1.1.5.drv",
+      "description": "Program to help users work with QMK Firmware",
+      "install_id": "qmk",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "qmk-1.1.5",
+      "pname": "qmk",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/zax99cyv3c58jhg7kxcl4ifzfzgw37li-qmk-1.1.5-dist",
+        "out": "/nix/store/139631l6jx2nxph3b9pakgpq8ksd8ghb-qmk-1.1.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "qmk",
+      "broken": false,
+      "derivation": "/nix/store/p33jbmnl3lzjiw7zfwk144hpk3fbyqlw-qmk-1.1.5.drv",
+      "description": "Program to help users work with QMK Firmware",
+      "install_id": "qmk",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "qmk-1.1.5",
+      "pname": "qmk",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/q48339zzyjl84f7m46nka2vvjd4jwpp4-qmk-1.1.5-dist",
+        "out": "/nix/store/ky10zp3ppnfkmpbpy23czm95ysy2zbqk-qmk-1.1.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "qmk",
+      "broken": false,
+      "derivation": "/nix/store/c8bvkbckrrnvqgyl649m3g9fq9sg32q2-qmk-1.1.5.drv",
+      "description": "Program to help users work with QMK Firmware",
+      "install_id": "qmk",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "qmk-1.1.5",
+      "pname": "qmk",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/vpg55x6z7ag0xsqc9wlycyprs9xch5ix-qmk-1.1.5-dist",
+        "out": "/nix/store/cp7jmz5spyjw2ac95hw32xc7l605ifk9-qmk-1.1.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "qmk",
+      "broken": false,
+      "derivation": "/nix/store/gl5fw4i4a3ckjfgrxqddmhh8fcwrczl4-qmk-1.1.5.drv",
+      "description": "Program to help users work with QMK Firmware",
+      "install_id": "qmk",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9357f4f23713673f310988025d9dc261c20e70c6",
+      "name": "qmk-1.1.5",
+      "pname": "qmk",
+      "rev": "9357f4f23713673f310988025d9dc261c20e70c6",
+      "rev_count": 684053,
+      "rev_date": "2024-09-21T16:51:44Z",
+      "scrape_date": "2024-09-24T03:16:35Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/dyjcrs8rq2gjpgxcd4yv4zjvg6053xaw-qmk-1.1.5-dist",
+        "out": "/nix/store/jiniyc8j0qwx2n4zwd6iryf4jasr6rfd-qmk-1.1.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
