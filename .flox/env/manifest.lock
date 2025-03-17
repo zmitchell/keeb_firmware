@@ -9,7 +9,7 @@
     },
     "hook": {},
     "profile": {
-      "fish": "  alias flash \"qmk flash result-firmware\"\n"
+      "fish": "  alias flash \"qmk flash result-firmware\"\n  alias flash-keeb \"qmk compile -j 0 -kb boardsource/unicorne -km zmitchell && qmk flash\"\n"
     },
     "options": {
       "systems": [
@@ -25,10 +25,7 @@
     },
     "build": {
       "firmware": {
-        "command": "  qmk compile -j 0 -kb boardsource/unicorne -km zmitchell > $out\n",
-        "files": null,
-        "systems": null,
-        "sandbox": null
+        "command": "  qmk compile -j 0 -kb boardsource/unicorne -km zmitchell > $out\n"
       }
     }
   },

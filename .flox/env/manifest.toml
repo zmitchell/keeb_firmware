@@ -46,6 +46,7 @@ qmk.pkg-path = "qmk"
 # '''
 fish = '''
   alias flash "qmk flash result-firmware"
+  alias flash-keeb "qmk compile -j 0 -kb boardsource/unicorne -km zmitchell && qmk flash"
 '''
 
 # The `[services]` section of the manifest allows you to define services.
